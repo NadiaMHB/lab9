@@ -61,3 +61,57 @@ h1 {
     background-color: #0056b3;
     border-color: #0056b3;
 }
+
+/* PARA LOS DETALLES DE LOS MEALS*/
+
+.meal-details {
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.meal-image {
+    width: 100%;
+    max-height: 250px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.meal-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.meal-info {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+.meal-info strong {
+    color: #333;
+}
+
+.meal-instructions {
+    white-space: pre-line;
+    color: #333;
+    margin-top: 15px;
+}
+
+.meal-tags, .meal-ingredients {
+    font-size: 1rem;
+    color: #777;
+    margin-top: 10px;
+}
+
+.ingredients-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #333;
+}
